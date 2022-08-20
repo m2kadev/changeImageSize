@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="sizer">
+        <label>Image Width: (px)</label>
+        <input type="number" id="width" value=500>
+        <label>Image Height: (px)</label>
+        <input type="number" id="height" value=300>
+        <label>Color: (hex or rgb or rgba)</label>
+        <input type="text" value="red" id="color">
+    </div>
+    
+    <div class="container" id="container">
+        <div class="show-size" id="showSize">
+            <span>500px</span> * <span>500px</span>
+        </div>
+    </div>
+
+    <button id="changeSize">Change Size</button>
+</body>
+</html>
